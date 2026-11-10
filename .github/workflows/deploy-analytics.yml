@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - analytics/**
 
 concurrency:
   group: deploy-ECS-analytics-${{ github.ref }} #TODO: Replace name of the service
