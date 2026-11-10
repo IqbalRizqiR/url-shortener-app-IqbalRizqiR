@@ -9,7 +9,7 @@ COPY . .
 RUN bun run build
 
 
-# Stage 2: Runtimes
+# Stage 2: Runtime
 FROM nginx:alpine
 
 # build output
