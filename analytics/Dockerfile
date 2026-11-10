@@ -9,7 +9,7 @@ COPY . .
 RUN bun run build
 
 
-# Stage 2: Runtimes
+# Stage 2: Runtimess
 FROM gcr.io/distroless/base
 WORKDIR /app
 
